@@ -1,8 +1,10 @@
-# **CreateReactBookSearchApp to Search Goodreads Book Search**
+# **CreateReactBookSearchApp to Search Goodreads Book**
 
 This application uses goodreads api to look for books by title, author or isbn code.
 
-This project was bootstrapped with `create-react-app` and deployed live at -----
+This project was bootstrapped with `create-react-app` and deployed live at
+
+// TO DO ----will provide path shortly----
 
 # Running the application locally
 
@@ -16,7 +18,7 @@ This project was bootstrapped with `create-react-app` and deployed live at -----
 
  steps:
  1. create .env at the root of the project and make an entry like REACT_APP_API_KEY="your own key" or use my key  
- <!--example : REACT_APP_API_KEY=BMSw4WMQoJpDhgZUB0lQ-->
+ example : REACT_APP_API_KEY=BMSw4WMQoJpDhgZUB0lQ
 
 you can also refer here for more detail on environment variables
 
@@ -55,14 +57,12 @@ To build the production assets, run
 5. See the description and rating, and other details by clicking on individual result.
 
 # Technical Stack of App currently :
- 1. used redux to store data and manage it across the containers only.
- 2. components consist of dump ui component  which needs data which is provided by the container component 
+ 1. Used redux to maintain the data in store and manage it across the containers with in the app.
+ 2. Components consist of dump ui component  which needs data which is provided by the container component 
     which is connected through the store.
- 3. used sass for css modules .
-
-
-
-# With the more time could have been done:
+ 3. Used sass for css modules .
+ 
+# With the more time could have done below list of tasks:
 
 1. error handling could have been done in more detail.
 2. more test cases related to asynchronous action and api testing.
