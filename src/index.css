@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search-container {
+    padding: 1rem;
+    background: #e2e2e2;
+}
+
+.search-container > .form-group {
+	margin-bottom: 0;
+}
+
+.search-container > .form-group > div {
+	margin-bottom: 1rem;
+}
+
+.search-container > .form-group ~ .search-result-container {
+	position: relative;
+    padding-top: 1rem;
+    border-top: 2px solid #fff;
+}
+
+.search-container > .form-group ~ .search-result-container .lead {
+	min-height: 300px;
+	height: 70vh;
+}
+
+.search-container > .form-group ~ .search-result-container .lead img {
+	top: calc(50% - 4rem);
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+.search-result-container .search-result-single-book {
+    margin-bottom: 1rem;
+}
+
+.book-info-container .previous-btn-wrapper {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+}
+
+.book-info-container footer {
+	padding-top: 1rem;
+    border-top: 2px solid #fff;	
+}
