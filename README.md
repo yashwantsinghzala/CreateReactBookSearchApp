@@ -1,6 +1,6 @@
 # **CreateReactBookSearchApp to Search Goodreads Book**
 
-This application uses goodreads api to look for books by title, author or isbn code.
+This application uses goodreads api to look for books by Title, Author or Isbn code.
 
 This project was bootstrapped with `create-react-app` and deployed live at
 
@@ -13,22 +13,22 @@ This project was bootstrapped with `create-react-app` and deployed live at
 <!--**Required Environment Variables:**
 
 `REACT_APP_API_KEY` : Goodreads API Key you can get from [here](https://www.goodreads.com/api/keys).-->
- 
- I have put an entry .env file at the root of the project and used my key while development  ,but you can always register and use your own key.
-
- steps:
- 1. create .env at the root of the project and make an entry like REACT_APP_API_KEY="your own key" or use my key  
- example : REACT_APP_API_KEY=BMSw4WMQoJpDhgZUB0lQ
-
 you can also refer here for more detail on environment variables
 
 Save it in the `.env` file as described [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables)
-
 Having done that, here is how to run the application locally in development mode.
 
 **Clone the repo:**
 
 git clone https://github.com/yashwantsinghzala/CreateReactBookSearchApp.git
+
+**making an entry for environment variable for the repo if you have choosen it to put it manually in .env file:**
+ 
+ I have put an entry .env file at the root of the project and used my key while developmen but one can always register himself and use his own key.
+ steps:
+ 1. create .env at the root of the project and make an entry like REACT_APP_API_KEY="your own key" or use my key  
+ example : REACT_APP_API_KEY=BMSw4WMQoJpDhgZUB0lQ
+
 
 **Install dependencies:**
 
