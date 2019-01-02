@@ -1,4 +1,4 @@
-# **Goodreads-Book-Search**
+# **CreateReactBookSearchApp to Search Goodreads Book Search**
 
 This application uses goodreads api to look for books by title, author or isbn code.
 
@@ -12,7 +12,7 @@ This project was bootstrapped with `create-react-app` and deployed live at -----
 
 `REACT_APP_API_KEY` : Goodreads API Key you can get from [here](https://www.goodreads.com/api/keys).-->
  
- i have put an entry .env file at the root of the project and used my key while development  ,but you can always register and use your own key.
+ I have put an entry .env file at the root of the project and used my key while development  ,but you can always register and use your own key.
 
  steps:
  1. create .env at the root of the project and make an entry like REACT_APP_API_KEY="your own key" or use my key  
