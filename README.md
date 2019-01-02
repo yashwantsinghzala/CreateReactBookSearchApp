@@ -26,7 +26,7 @@ Having done that, here is how to run the application locally in development mode
 
 **Clone the repo:**
 
-    <!--git clone-->
+git clone https://github.com/yashwantsinghzala/CreateReactBookSearchApp.git
 
 **Install dependencies:**
 
